@@ -11,19 +11,43 @@
 <body>
 
     <!-- HEADER -->
-    <header>
-        <div class="logo">
-            <img src="images/4-removebg-preview.png" alt="The Penta Source Logo">
-        </div>
+<header>
+  <div class="header-left">
+    <!-- using the uploaded image path as a test logo (replace if needed) -->
+    <div class="logo">
+      <a href="index.html">
+        <img src="/mnt/data/39be50ab-fe22-481d-93c7-f40fb5ba7a50.png" alt="The Penta Source Logo">
+      </a>
+    </div>
+  </div>
 
-        <nav>
-            <a href="#">Kahoot</a>
-            <a href="#">Brochure</a>
-            <a href="#">Video</a>
-        </nav>
+  <!-- regular nav for larger screens -->
+  <nav class="main-nav" aria-label="Main Navigation">
+      <a href="#">Kahoot</a>
+      <a href="#">Brochure</a>
+      <a href="#">Video</a>
+  </nav>
 
-        <div class="team-name">Five voices <br> one directon</div>
-    </header>
+  <!-- right side: team name (hidden on mobile) + hamburger -->
+  <div class="header-right">
+    <div class="team-name">THE PENTA SOURCE</div>
+
+    <!-- hamburger for mobile -->
+    <button id="hamburger" class="hamburger" aria-label="Open menu" aria-expanded="false">
+      <span class="ham-bar"></span>
+      <span class="ham-bar"></span>
+      <span class="ham-bar"></span>
+    </button>
+  </div>
+</header>
+
+<!-- Mobile nav panel (hidden on large screens) -->
+<nav id="mobile-nav" class="mobile-nav" aria-label="Mobile Navigation">
+  <a href="#">Kahoot</a>
+  <a href="#">Brochure</a>
+  <a href="#">Video</a>
+</nav>
+
 
     <!-- MAIN CONTENT -->
     <section class="container">
