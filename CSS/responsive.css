@@ -34,8 +34,8 @@
 
     /* LOGO SCALED PROPERLY */
     .logo img {
-        height: 60px !important;
-        padding-top: 0 !important;
+        height: 250% !important;
+        padding-top: 75px !important;
     }
 
     /* HAMBURGER BUTTON */

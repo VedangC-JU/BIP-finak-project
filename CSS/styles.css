@@ -68,6 +68,10 @@ nav a:hover {
     color: var(--accent);
 }
 
+.mobile-nav {
+    display: none;
+}
+
 /* MAIN CONTENT */
 .container {
     max-width: 1200px;
