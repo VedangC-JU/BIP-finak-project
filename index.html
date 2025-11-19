@@ -7,9 +7,9 @@
 
     <!-- CSS LINK -->
     <link rel="stylesheet" href="/CSS/styles.css">
+    <link rel="stylesheet" href="/CSS/responsive.css">
 </head>
 <body>
-
     <!-- HEADER -->
     <header>
         <div class="logo">
@@ -23,7 +23,21 @@
         </nav>
 
         <div class="team-name">Five voices <br> one directon</div>
+
+        <!-- Hamburger Button (Mobile Only) -->
+        <div class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
     </header>
+
+    <!-- Mobile Menu -->
+    <nav class="mobile-nav" id="mobile-nav">
+        <a href="#">Kahoot</a>
+        <a href="#">Brochure</a>
+        <a href="#">Video</a>
+    </nav>
 
     <!-- MAIN CONTENT -->
     <section class="container">
@@ -59,9 +73,6 @@
         </div>
     </section>
 
-        </div>
-    </section>
-
     <!-- FOOTER -->
     <footer class="footer">
         <nav>
@@ -76,5 +87,6 @@
 
     <!-- JS LINK -->
     <script src="/JS/script.js"></script>
+    <script src="/JS/hamburger.js"></script>
 </body>
 </html>
