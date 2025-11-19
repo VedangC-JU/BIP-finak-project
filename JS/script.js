@@ -2,12 +2,12 @@ function openLink(url) {
     window.open(url, "_blank");
 }
 
-/* Handle previews for infographic + video */
+/* This handles previews for infographic + video */
 function openPreview(type) {
     window.location.href = "view.html?type=" + type;
 }
 
-/* On view.html: load correct content */
+/* On view.html: loading the correct content */
 window.onload = function () {
     const params = new URLSearchParams(window.location.search);
     const type = params.get("type");

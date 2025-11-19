@@ -124,7 +124,7 @@ nav a:hover {
 }
 
 .back-btn:hover {
-    opacity: 0.8;
+    opacity: 0.5;
 }
 
 .content-area img, 
@@ -158,7 +158,6 @@ nav a:hover {
     display: block;
     margin: 0 auto;
 }
-
 
 /* FOOTER */
 footer {
