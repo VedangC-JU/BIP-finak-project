@@ -15,10 +15,12 @@ window.onload = function () {
 
     if (!container) return;
 
-    if (type === "infographic") {
+    if (type === "brochure") {
         container.innerHTML = `
-            <h1>Infographic Preview</h1>
-            <img src="images/infographic.png" alt="Full Infographic">
+            <h1>Brochure Preview</h1>
+            <iframe src="images/broshure.pdf" 
+                style="width:100%; height:800px; border-radius:10px; border:none;">
+            </iframe>        
         `;
     }
 
