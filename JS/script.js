@@ -18,7 +18,7 @@ window.onload = function () {
     if (type === "brochure") {
         container.innerHTML = `
             <h1>Brochure Preview</h1>
-            <iframe src="images/broshure.pdf" 
+            <iframe src="images/brochure.pdf" 
                 style="width:100%; height:800px; border-radius:10px; border:none;">
             </iframe>        
         `;
