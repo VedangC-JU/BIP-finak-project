@@ -5,20 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>View Content – The Penta Source</title>
 
-    <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="stylesheet" href="CSS\styles.css">
+    <link rel="stylesheet" href="CSS\responsive.css">
 </head>
 <body>
 
 <header>
-    <div class="logo">LOGO</div>
+    <div class="logo">
+        <img src="images/4-removebg-preview.png" alt="The Penta Source Logo">
+    </div>
 
-    <nav>
-        <a href="index.html">Kahoot</a>
-        <a href="index.html">Brochure</a>
-        <a href="index.html">Video</a>
-    </nav>
+    <div class="nav-wrapper">
+        <nav class="desktop-nav">
+            <a href="#">Kahoot</a>
+            <a href="#">Brochure</a>
+            <a href="#">Video</a>
+        </nav>
+    </div>
 
-    <div class="team-name">THE PENTA SOURCE</div>
+    <div class="team-name">Five voices <br> one directon</div>
+        
+    <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
 </header>
 
 <section class="view-container">
@@ -39,6 +50,7 @@
     <div class="copyright">The Penta Source © All rights reserved.</div>
 </footer>
 
-<script src="JS/script.js"></script>
+<script src="JS\script.js"></script>
+<script src="JS\hamburger.js"></script>
 </body>
 </html>
