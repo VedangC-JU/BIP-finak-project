@@ -28,7 +28,7 @@ window.onload = function () {
         container.innerHTML = `
             <h1>Video Preview</h1>
             <video controls>
-                <source src="videos/video.mp4" type="video/mp4">
+                <source src="images/video.mp4" type="video/mp4">
                 Your browser does not support video playback.
             </video>
         `;
