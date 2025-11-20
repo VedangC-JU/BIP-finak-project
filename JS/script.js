@@ -27,7 +27,7 @@ window.onload = function () {
     if (type === "video") {
         container.innerHTML = `
             <h1>Video Preview</h1>
-            <video controls>
+            <video controls style="max-width: 90%; border-radius: 12px;">
                 <source src="images/video.mp4" type="video/mp4">
                 Your browser does not support video playback.
             </video>
